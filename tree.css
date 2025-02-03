@@ -1,0 +1,32 @@
+.tree-container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: flex ;
+    flex-direction: row;
+    gap: 50px ;
+}
+img{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    
+}
